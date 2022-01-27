@@ -1,0 +1,109 @@
+:root {
+    --verde: green;
+    --preta: black;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--preta);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    width: 1266;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+}
+
+header .logo {
+    font-size: 40px;
+    color: var(--verde);
+    font-family: 'Arial Black', Helvetica, sans-serif;
+    margin-left: 5px;
+}
+
+header nav a {
+    color: lightgray;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+
+/*filme principal*/
+
+.destaque {
+    font-size: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .80)), url('../img/ecosia-main.jpg');
+    min-height: 400px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.destaque .descricao {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.destaque .container {
+    max-width: 70%;
+}
+
+.titulo {
+    background-image: url('../img/ecosia-icon.png');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 175px;
+}
+
+.botoes button {
+    width: 200px;
+    background-color: var(--preta);
+    color: white;
+    border: none;
+    margin-right: 12px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 15px 30px;
+    opacity: 0.6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botoes button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: 0.4s ease all;
+}
+
+button i {
+    margin-right: 7px;
+}
+
+.poster {
+    max-width: 200px;
+    max-height: 3000px;
+    display: block;
+}
