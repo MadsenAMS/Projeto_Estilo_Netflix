@@ -24,11 +24,9 @@ header .container {
     max-width: 1100px;
 }
 
-header .logo {
-    font-size: 40px;
-    color: var(--verde);
-    font-family: 'Arial Black', Helvetica, sans-serif;
+.logo {
     margin-left: 5px;
+    max-width: 300px;
 }
 
 header nav a {
@@ -59,6 +57,8 @@ header nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 25px;
+    border-radius: 25px;
 }
 
 .destaque .descricao {
@@ -78,7 +78,7 @@ header nav a:hover {
     height: 175px;
 }
 
-.botoes button {
+.botao {
     width: 200px;
     background-color: var(--preta);
     color: white;
@@ -91,19 +91,16 @@ header nav a:hover {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.botoes button:hover {
+.botao:hover {
     cursor: pointer;
     background-color: white;
     color: black;
     transition: 0.4s ease all;
 }
 
-button i {
-    margin-right: 7px;
-}
-
 .poster {
     max-width: 200px;
     max-height: 3000px;
     display: block;
+    border-radius: 10px;
 }

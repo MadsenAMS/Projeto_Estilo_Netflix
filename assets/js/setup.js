@@ -6,13 +6,16 @@ $(document).ready(function() {
         loop: true,
         responsive: {
             0: {
-                items: 1
+                items: 2
             },
             600: {
-                items: 3
+                items: 4
             },
             1000: {
-                items: 5
+                items: 6
+            },
+            1600: {
+                items: 12
             }
         }
     })
